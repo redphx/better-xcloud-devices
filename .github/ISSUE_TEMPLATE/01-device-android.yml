@@ -1,0 +1,28 @@
+name: Android device
+description: Suggest settings for an Android device
+title: "[Android] "
+labels:
+  - android
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I will only use English
+          required: true
+        - label: I have used the search function for [**open and closed issues**](https://github.com/redphx/better-xcloud-devices/issues?q=is%3Aissue) to see if someone else has already submitted the same device
+          required: true
+  - type: textarea
+    id: debug-info
+    attributes:
+      label: "Debug info"
+      description: |
+        1. Open the Better xCloud app
+        2. Open script settings
+        3. Scroll to the bottom, click on the "DEBUF INFO" button
+        4. Click on the info box to copy the content to clipboard
+        5. Paste that info into the input box below
+        6. If you're on Android TV, you can take photos instead
+    validations:
+      required: true
