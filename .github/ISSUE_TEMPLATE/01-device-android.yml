@@ -38,7 +38,7 @@ body:
     id: webview
     attributes:
       label: "WebView"
-      description: "Which WebView are you using"
+      description: "Which WebView are you using?"
       placeholder: "System/Thorium/Mulch"
     validations:
       required: true
