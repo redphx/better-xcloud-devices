@@ -44,7 +44,7 @@ body:
     attributes:
       label: "WebView"
       description: "Which WebView are you using?"
-      placeholder: "System/Thorium/Mulch"
+      placeholder: "Default / Thorium / Mulch"
     validations:
       required: true
   - type: checkboxes
