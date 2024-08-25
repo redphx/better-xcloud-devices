@@ -26,6 +26,9 @@ body:
     attributes:
       label: "Debug info"
       description: |
+        > [!NOTE]
+        > Make sure you're using the best settings for your device before doing these steps
+
         1. Open the Better xCloud app
         2. Open script settings
         3. Scroll to the bottom, click on the "DEBUG INFO" button
