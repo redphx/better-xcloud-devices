@@ -34,3 +34,21 @@ body:
         6. If you're on Android TV, you can take photos and upload them instead
     validations:
       required: true
+  - type: input
+    id: webview
+    attributes:
+      label: "WebView"
+      description: "Which WebView are you using"
+      placeholder: "System/Thorium/Mulch"
+    validations:
+      required: true
+  - type: checkboxes
+    id: app_settings
+    attributes:
+      label: App settings
+      description: Check which app settings you're using
+      options:
+        - label: Hardware Back button as Xbox button
+          required: false
+        - label: Optimize WebView performance
+          required: false
