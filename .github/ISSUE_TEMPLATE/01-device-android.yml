@@ -44,7 +44,7 @@ body:
     attributes:
       label: "Explaination (Optional)"
       description: |
-        If you're not using the "Highest quality" settings, please explain. I'll try to suggest you with better settings if possible.
+        If you're not using the "Highest quality" settings, please explain why. I'll try to suggest you with better settings if possible.
   - type: input
     id: webview
     attributes:
