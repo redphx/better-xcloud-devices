@@ -42,7 +42,7 @@ body:
   - type: textarea
     id: explain
     attributes:
-      label: "Explaination (Optional)"
+      label: "Explanation (Optional)"
       description: |
         If you're not using the "Highest quality" settings, please explain why. I'll try to suggest you with better settings if possible.
   - type: input
