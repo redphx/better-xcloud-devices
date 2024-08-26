@@ -39,6 +39,12 @@ body:
         6. If you're on Android TV, you can take photos and upload them instead
     validations:
       required: true
+  - type: textarea
+    id: explain
+    attributes:
+      label: "Explaination (Optional)"
+      description: |
+        If you're not using the "Highest quality" settings, please explain. I'll try to suggest you with better settings if possible.
   - type: input
     id: webview
     attributes:
